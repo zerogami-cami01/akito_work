@@ -100,15 +100,28 @@ a {
 /*------header------*/
 
 /*-----main-----*/
-/*
+
 .sample1-photo {
-  float: right;
-  width: 50%;
+  /* float: right;
+  width: 50%; */
+  margin-top: 60px;
 }
 
 .sample2-photo {
-  float: left;
-  width: 50%;
+  /* float: left;
+  width: 50%; */
+  margin-top: 10px;
 }
 
 /*-----main-----*/
+
+/*-----footer-----*/
+
+/*-----footer-----*/
+
+@media(max-width:480px){
+  
+  .contents ul li {
+    font-size: 13px;
+  }
+}
