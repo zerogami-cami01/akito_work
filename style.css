@@ -110,7 +110,15 @@ a {
 .sample2-photo {
   /* float: left;
   width: 50%; */
-  margin-top: 10px;
+  margin-top: 60px;
+}
+
+.sample3-photo {
+  margin-top: 60px;
+}
+
+.sample4-photo {
+  margin-top: 60px;
 }
 
 /*-----main-----*/
@@ -122,6 +130,8 @@ a {
 @media(max-width:480px){
   .header {
     position: relative;
+    height: 60px;
+
   }
 
   .logo {
@@ -163,5 +173,9 @@ a {
   .contents ul li a {
     display: block;
     padding: 3px;
+  }
+
+  .sample1-photo {
+    margin-top: 0px;
   }
 }
